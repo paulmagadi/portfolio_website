@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- swiper css -->
+    <link
+  rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
+    <!-- box icon-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <!-- external css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <!-- navbar, logo-->
+    <header class="header">
+        <a href="#" class="logo">MY PORTFOLIO</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+    
+    <!-- home section -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Welcome, I am</h3>
+            <h1>Paul SQ</h1>
+            <p>Lorem ipsum dolor sit amet consectetur 
+            adipisicing elit. Placeat cupiditate a incidunt pariatur non
+            ipsa exercitationem suscipit est, enim aliquam fugiat fugit ducimus
+            mollitia vitae eos atque tempora minus iusto, 
+            similique dicta! Sapiente mollitia accusamus deleniti 
+            repellat earum! Veritatis officiis, nam quis 
+            neque sit qui facere quae dolores optio temporibus.</p>
+            
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:1;" >
+                    <i class='bx bxl-aws'></i>
+                    <h3>AWS Solutions Architect</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-code-block'></i>
+                    <h3>Software Developer</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bxs-data' ></i>
+                    <h3>Data Engineer</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="sq32.png" alt="paul">
+        </div>
+    </section>
+
+    <!-- About section -->
+    <section class="about" id="about">
+        <div class="about-image">
+            <img src="sq1.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About<span> Me</span></h2>
+            <h3>Hi, Iam here to help you with your project</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+            Eos, ab vel hic doloremque qui sed repellat voluptate asperiores voluptatum,
+            neque nulla quidem veritatis? Voluptatum neque voluptates cum amet quam error?</p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- Services section -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Asperiores itaque ducimus sequi accusamus ut corporis molestiae iusto hic voluptates voluptas. 
+                Enim sunt labore eaque aliquam possimus porro, sint quaerat dolorum.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxs-data' ></i>
+                <h3>Data & DataBase Managenent</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Asperiores itaque ducimus sequi accusamus ut corporis molestiae iusto hic voluptates voluptas. 
+                Enim sunt labore eaque aliquam possimus porro, sint quaerat dolorum.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bxl-aws'></i>
+                <h3>AWS Cloud Solutions</h3>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Asperiores itaque ducimus sequi accusamus ut corporis molestiae iusto hic voluptates voluptas. 
+                Enim sunt labore eaque aliquam possimus porro, sint quaerat dolorum.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- portfolio section -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+        
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="portfolio1.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Aspernatur quos non facilis a pariatur harum, 
+                    sunt molestiae cumque! Consequatur, perferendis.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="portfolio1.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Aspernatur quos non facilis a pariatur harum, 
+                    sunt molestiae cumque! Consequatur, perferendis.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="portfolio1.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Aspernatur quos non facilis a pariatur harum, 
+                    sunt molestiae cumque! Consequatur, perferendis.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="portfolio1.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Aspernatur quos non facilis a pariatur harum, 
+                    sunt molestiae cumque! Consequatur, perferendis.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="portfolio1.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Aspernatur quos non facilis a pariatur harum, 
+                    sunt molestiae cumque! Consequatur, perferendis.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="portfolio1.jpg" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Web Design</h4>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                    Aspernatur quos non facilis a pariatur harum, 
+                    sunt molestiae cumque! Consequatur, perferendis.</p>
+                    <a href="#"><i class="bx bx-link-external"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- testimonials section -->
+    <div class="testimonial-container">
+        <h1>Valuable <span>Testimonial</span></h1>
+
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="sq1.png" width="50px" height="50px" alt="">
+                        <h3>Paul Mulumba</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Iste reiciendis necessitatibus iusto amet quasi cum 
+                        laudantium impedit quidem consectetur, ullam omnis, 
+                        repellendus fugiat neque praesentium dolore. 
+                        Iste blanditiis rem eaque!</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="sq1.png" width="50px" height="50px" alt="">
+                        <h3>Bella Diamonds</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Iste reiciendis necessitatibus iusto amet quasi cum 
+                        laudantium impedit quidem consectetur, ullam omnis, 
+                        repellendus fugiat neque praesentium dolore. 
+                        Iste blanditiis rem eaque!</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="sq1.png" width="50px" height="50px" alt="">
+                        <h3>Tinna Ballard</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Iste reiciendis necessitatibus iusto amet quasi cum 
+                        laudantium impedit quidem consectetur, ullam omnis, 
+                        repellendus fugiat neque praesentium dolore. 
+                        Iste blanditiis rem eaque!</p>
+                    </div>
+
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact section -->
+    <section class="contact" id="contact">
+        <h2>Contact <span>Me</span></h2>
+
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+            <div class="input-box">
+                <input type="number" placeholder="Mobile number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+
+    <!-- footer section -->
+    <footer  class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2023 by SQCodes | All Rights Reserved</p>
+        </div>
+
+        <div class="toTop-icon">
+            <a href="#home"> <i class="bx bx-up-arrow-alt"></i></a>
+        </div>
+    </footer>
+
+    <!-- scroll reveal js -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+      
+    <!-- custom js -->
+    <script src="script.js"></script>
+</body>
+</html>
